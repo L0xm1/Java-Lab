@@ -18,13 +18,11 @@ public class L5Q1
                 System.out.print(a[i][j] + " ");
             System.out.println();
         }
-        //Finding upper triangle sum
         int sum = 0;
         for (int i=0;i<n;i++)
             for (int j=i;j<n;j++)
                 sum += a[i][j];
         System.out.println("The sum of upper triangle is: " + sum);
-        //Finding lower triangle sum
         sum = 0;
         for (int i=0;i<n;i++)
             for (int j=0;j<=i;j++)

@@ -1,4 +1,4 @@
-public class L2Q2
+public class L2Q3
 {
         public static void main(String args[])
         {
@@ -18,6 +18,14 @@ class Student2
         String DOB;
 
 	Student2(){}
+        Student2(String name, String place, String mobnum, String Parent, String DOB)
+        {
+                this.name = name;
+                this.place = place;
+                this.mobnum = mobnum;
+                this.Parent = Parent;
+                this.DOB = DOB;
+        }
 
         public void printData()
         {
@@ -28,12 +36,4 @@ class Student2
                 System.out.println("DOB: "+this.DOB);
         }
 
-        Student2(String name, String place, String mobnum, String Parent, String DOB)
-        {
-                this.name = name;
-                this.place = place;
-                this.mobnum = mobnum;
-                this.Parent = Parent;
-                this.DOB = DOB;
-        }
 }

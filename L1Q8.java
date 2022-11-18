@@ -7,8 +7,12 @@ public class L1Q8
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		int n = sc.nextInt();
-		for (int i=1;i<=n;i+=2)
+		int i = 1;
+		while (i<=n)
+		{
 			System.out.print(i+" ");
+			i+=2;
+		}
 		System.out.print("\n");
 	}
 }
