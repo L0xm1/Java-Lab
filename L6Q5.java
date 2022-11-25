@@ -3,7 +3,6 @@ public class L6Q5
 {
     public static void main(String args[])
     {
-        //Display frequency of each character
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
@@ -21,7 +20,7 @@ public class L6Q5
         }
         for (int i = 0; i < freq.length; i++)
         {
-            if (chars[i] != ' ' && chars[i] != '0')
+            if (chars[i] != '0')
                 System.out.println(chars[i] + " - " + freq[i]);
         }
 
